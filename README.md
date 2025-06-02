@@ -1,10 +1,10 @@
-EDENFALL: An Existential Game
+##EDENFALL: An Existential Game
 
-> A browser-based psychological interactive fiction with branching endings.
+> **A browser-based psychological interactive fiction with branching endings.**
 
 
 
-How to Play
+##How to Play
 
 1. Open index.html in your browser, or access the game via GitHub Pages if it's published.
 
@@ -16,15 +16,16 @@ How to Play
 
 
 
-File Structure
-
+##File Structure
+```
 edenfall/
 ├── index.html
 ├── README.md
+```
 
-Credits
+##Credits
 
-Story & Code: muuunniverse
+Story & Code: [muuunniverse](https://github.com/muuunniverse)
 
 Design inspiration: The Matrix, terminal UI, classic interactive fiction
 
@@ -32,16 +33,16 @@ Design inspiration: The Matrix, terminal UI, classic interactive fiction
 
 ---
 
-Live Demo
+##Live Demo
 
-If GitHub Pages is enabled, play it here:
+Play it here:
 
 https://muuunniverse.github.io/EDENF4LL/#start
 
 
 ---
 
-Notes for Players
+##Notes for Players
 
 Be observant! Some choices or passwords can only be found if you're paying attention.
 
