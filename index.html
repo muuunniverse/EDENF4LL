@@ -5,7 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body {
+        body
+        <script>
+function showPassage(id) {
+    document.querySelectorAll('.passage').forEach(p => p.style.display = 'none');
+    const el = document.getElementById(id);
+    if (el) el.style.display = 'block';
+    else document.getElementById('start').style.display = 'block';
+}
+window.onload = function() {
+    let id = location.hash.replace('#', '') || 'start';
+    showPassage(id);
+};
+window.onhashchange = function() {
+    let id = location.hash.replace('#', '') || 'start';
+    showPassage(id);
+};
+function nukeGame() {
+    if (confirm("Are you sure you want to NUKE the system? This will restart the story.")) {
+        location.hash = "#start";
+        showPassage('start');
+    }
+}
+</script>{
             background: #0f0f1a;
             color: #e0e0ff;
             font-family: 'Courier New', monospace;
